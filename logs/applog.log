@@ -1,0 +1,544 @@
+[INFO] 14-03-2026 21:53:25 [main] LogUtils - Create Category
+[INFO] 14-03-2026 21:53:25 [main] LogUtils - Get Category By Id
+[INFO] 14-03-2026 21:53:25 [main] LogUtils - CATEGORY_ID: 0
+[INFO] 14-03-2026 21:54:02 [main] LogUtils - Create Category
+[INFO] 14-03-2026 21:54:03 [main] LogUtils - 2609
+[INFO] 14-03-2026 21:54:03 [main] LogUtils - Get Category By Id
+[INFO] 14-03-2026 21:54:03 [main] LogUtils - CATEGORY_ID: 2609
+[INFO] 14-03-2026 21:56:37 [main] LogUtils - 
+ *******************************
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - Create Category
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - Test case failed: testAddNewCategory
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <422>.
+
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - Get Category By Id
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - CATEGORY_ID: 0
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - Test case failed: getCategoryById
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - Tổng số test cases 2
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - Số test cases passed: 0
+[INFO] 14-03-2026 21:56:38 [main] LogUtils - Số test cases failed: 2
+[INFO] 14-03-2026 21:57:01 [main] LogUtils - 
+ *******************************
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - Create Category
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - 2610
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - Get Category By Id
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - CATEGORY_ID: 2610
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - Test case failed: getCategoryById
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - java.lang.AssertionError: The Category Name not match. expected [Testing Category 05] but found [Kakakaka]
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - Tổng số test cases 2
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - Số test cases passed: 1
+[INFO] 14-03-2026 21:57:02 [main] LogUtils - Số test cases failed: 1
+[INFO] 14-03-2026 22:00:45 [main] LogUtils - 
+ *******************************
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - Create Category
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - 2611
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - Get Category By Id
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - CATEGORY_ID: 2611
+[ERROR] 14-03-2026 22:00:46 [main] LogUtils - Test case failed: getCategoryById
+[ERROR] 14-03-2026 22:00:46 [main] LogUtils - java.lang.AssertionError: The Category Name not match. expected [Testing Category 05] but found [Kakakakaff]
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - Tổng số test cases 2
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - Số test cases passed: 1
+[INFO] 14-03-2026 22:00:46 [main] LogUtils - Số test cases failed: 1
+[INFO] 14-03-2026 22:01:29 [main] LogUtils - 
+ *******************************
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - Create Category
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - {
+    "message": "Success",
+    "response": {
+        "name": "Kakakakaf",
+        "id": 2612
+    }
+}
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - 2612
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - Get Category By Id
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - CATEGORY_ID: 2612
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - {
+    "message": "Success",
+    "response": {
+        "id": 2612,
+        "name": "Kakakakaf"
+    }
+}
+[ERROR] 14-03-2026 22:01:30 [main] LogUtils - Test case failed: getCategoryById
+[ERROR] 14-03-2026 22:01:30 [main] LogUtils - java.lang.AssertionError: The Category Name not match. expected [Testing Category 05] but found [Kakakakaf]
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - Tổng số test cases 2
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - Số test cases passed: 1
+[INFO] 14-03-2026 22:01:30 [main] LogUtils - Số test cases failed: 1
+[INFO] 16-03-2026 21:11:53 [main] LogUtils - 
+ *******************************
+[INFO] 16-03-2026 21:11:53 [main] LogUtils - ********LOGIN USER********
+[INFO] 16-03-2026 21:11:53 [main] LogUtils - POST not authorization: /login
+[INFO] 16-03-2026 21:11:53 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 16-03-2026 21:11:55 [main] LogUtils - RESPONSE: 
+{
+    "message": "The route api/%22%22/login could not be found."
+}
+[INFO] 16-03-2026 21:11:55 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 16-03-2026 21:11:55 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 16-03-2026 21:11:55 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 16-03-2026 21:11:55 [main] LogUtils - Tổng số test cases 2
+[INFO] 16-03-2026 21:11:55 [main] LogUtils - Số test cases passed: 0
+[INFO] 16-03-2026 21:11:55 [main] LogUtils - Số test cases failed: 0
+[INFO] 16-03-2026 21:15:59 [main] LogUtils - 
+ *******************************
+[INFO] 16-03-2026 21:15:59 [main] LogUtils - ********LOGIN USER********
+[INFO] 16-03-2026 21:15:59 [main] LogUtils - POST not authorization: /login
+[INFO] 16-03-2026 21:15:59 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 16-03-2026 21:16:00 [main] LogUtils - RESPONSE: 
+{
+    "message": "The route api/%22%22/login could not be found."
+}
+[INFO] 16-03-2026 21:16:00 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 16-03-2026 21:16:00 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 16-03-2026 21:16:00 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 16-03-2026 21:16:00 [main] LogUtils - Tổng số test cases 2
+[INFO] 16-03-2026 21:16:00 [main] LogUtils - Số test cases passed: 0
+[INFO] 16-03-2026 21:16:00 [main] LogUtils - Số test cases failed: 0
+[INFO] 16-03-2026 21:17:51 [main] LogUtils - 
+ *******************************
+[INFO] 16-03-2026 21:17:51 [main] LogUtils - ********LOGIN USER********
+[INFO] 16-03-2026 21:17:51 [main] LogUtils - POST not authorization: /login
+[INFO] 16-03-2026 21:17:51 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - RESPONSE: 
+{
+    "token": "33410|scj4Oq8FH6G5OxWQoUhhO40xBdPKLCJjhRCwqzKz3d07a555"
+}
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - Get body by key (token): 33410|scj4Oq8FH6G5OxWQoUhhO40xBdPKLCJjhRCwqzKz3d07a555
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - Token Global: 33410|scj4Oq8FH6G5OxWQoUhhO40xBdPKLCJjhRCwqzKz3d07a555
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - POST: /category
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Kakakakaaaaaaa",
+        "id": 2613
+    }
+}
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - Get body by key (response.id): 2613
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - Get body by key (response.name): Kakakakaaaaaaa
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - CATEGORY_ID: 2613
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - CATEGORY_NAME: Kakakakaaaaaaa
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - CATEGORY_ID: 2613
+[INFO] 16-03-2026 21:17:52 [main] LogUtils - GET: /category/2613
+[INFO] 16-03-2026 21:17:53 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 2613,
+        "name": "Kakakakaaaaaaa"
+    }
+}
+[INFO] 16-03-2026 21:17:53 [main] LogUtils - Get body by key (response.name): Kakakakaaaaaaa
+[INFO] 16-03-2026 21:17:53 [main] LogUtils - Test case passed: getCategoryById
+[INFO] 16-03-2026 21:17:53 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 16-03-2026 21:17:53 [main] LogUtils - Tổng số test cases 2
+[INFO] 16-03-2026 21:17:53 [main] LogUtils - Số test cases passed: 2
+[INFO] 16-03-2026 21:17:53 [main] LogUtils - Số test cases failed: 0
+[INFO] 16-03-2026 21:56:23 [main] LogUtils - 
+ *******************************
+[INFO] 16-03-2026 21:56:23 [main] LogUtils - ********LOGIN USER********
+[INFO] 16-03-2026 21:56:23 [main] LogUtils - POST not authorization: /login
+[INFO] 16-03-2026 21:56:23 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 16-03-2026 21:56:24 [main] LogUtils - RESPONSE: 
+{
+    "token": "33412|Wz9FYd1TZ1cwphpq4EedxGxkLBniJLwjVjeI1K0d0254b1bd"
+}
+[INFO] 16-03-2026 21:56:24 [main] LogUtils - Get body by key (token): 33412|Wz9FYd1TZ1cwphpq4EedxGxkLBniJLwjVjeI1K0d0254b1bd
+[INFO] 16-03-2026 21:56:24 [main] LogUtils - Token Global: 33412|Wz9FYd1TZ1cwphpq4EedxGxkLBniJLwjVjeI1K0d0254b1bd
+[INFO] 16-03-2026 21:56:24 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 16-03-2026 21:56:24 [main] LogUtils - POST: /category
+[INFO] 16-03-2026 21:56:24 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Principal Planner",
+        "id": 2614
+    }
+}
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - Get body by key (response.id): 2614
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - Get body by key (response.name): Principal Planner
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - CATEGORY_ID: 2614
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - CATEGORY_NAME: Principal Planner
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - CATEGORY_ID: 2614
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - GET: /category/2614
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 2614,
+        "name": "Principal Planner"
+    }
+}
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - Get body by key (response.name): Principal Planner
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - Test case passed: getCategoryById
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - Tổng số test cases 2
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - Số test cases passed: 2
+[INFO] 16-03-2026 21:56:25 [main] LogUtils - Số test cases failed: 0
+[INFO] 16-03-2026 22:00:51 [main] LogUtils - 
+ *******************************
+[INFO] 16-03-2026 22:00:51 [main] LogUtils - ********LOGIN USER********
+[INFO] 16-03-2026 22:00:51 [main] LogUtils - POST not authorization: /login
+[INFO] 16-03-2026 22:00:51 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 16-03-2026 22:00:53 [main] LogUtils - RESPONSE: 
+{
+    "token": "33413|bRfrkXuf8TElBpycGtcO7x7d1nV3rH0wZf3kw2AC5bebbdbd"
+}
+[INFO] 16-03-2026 22:00:53 [main] LogUtils - Get body by key (token): 33413|bRfrkXuf8TElBpycGtcO7x7d1nV3rH0wZf3kw2AC5bebbdbd
+[INFO] 16-03-2026 22:00:53 [main] LogUtils - Token Global: 33413|bRfrkXuf8TElBpycGtcO7x7d1nV3rH0wZf3kw2AC5bebbdbd
+[INFO] 16-03-2026 22:00:53 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 16-03-2026 22:00:53 [main] LogUtils - POST: /category
+[INFO] 16-03-2026 22:00:53 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Senior Designer",
+        "id": 2615
+    }
+}
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - Get body by key (response.id): 2615
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - Get body by key (response.name): Senior Designer
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - CATEGORY_ID: 2615
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - CATEGORY_NAME: Senior Designer
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - CATEGORY_ID: 2615
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - GET: /category/2615
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 2615,
+        "name": "Senior Designer"
+    }
+}
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - Get body by key (response.name): Senior Designer
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - Test case passed: getCategoryById
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - Tổng số test cases 2
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - Số test cases passed: 2
+[INFO] 16-03-2026 22:00:54 [main] LogUtils - Số test cases failed: 0
+[INFO] 16-03-2026 22:05:57 [main] LogUtils - 
+ *******************************
+[INFO] 16-03-2026 22:05:57 [main] LogUtils - ********LOGIN USER********
+[INFO] 16-03-2026 22:05:57 [main] LogUtils - POST not authorization: /login
+[INFO] 16-03-2026 22:05:57 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 16-03-2026 22:05:58 [main] LogUtils - RESPONSE: 
+{
+    "token": "33414|YzmngyJDZvDl57BRz29luFLjuGaKhCycvYZIY2cq175e9c0a"
+}
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Get body by key (token): 33414|YzmngyJDZvDl57BRz29luFLjuGaKhCycvYZIY2cq175e9c0a
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Token Global: 33414|YzmngyJDZvDl57BRz29luFLjuGaKhCycvYZIY2cq175e9c0a
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - POST: /category
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Customer Manufacturing Designer",
+        "id": 2616
+    }
+}
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Get body by key (response.id): 2616
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Get body by key (response.name): Customer Manufacturing Designer
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - CATEGORY_ID: 2616
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - CATEGORY_NAME: Customer Manufacturing Designer
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - CATEGORY_ID: 2616
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - GET: /category/2616
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 2616,
+        "name": "Customer Manufacturing Designer"
+    }
+}
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Get body by key (response.name): Customer Manufacturing Designer
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Test case passed: getCategoryById
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Tổng số test cases 2
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Số test cases passed: 2
+[INFO] 16-03-2026 22:05:59 [main] LogUtils - Số test cases failed: 0
+[INFO] 17-03-2026 20:44:15 [main] LogUtils - 
+ *******************************
+[INFO] 17-03-2026 20:44:15 [main] LogUtils - ********LOGIN USER********
+[INFO] 17-03-2026 20:44:15 [main] LogUtils - POST not authorization: /login
+[INFO] 17-03-2026 20:44:15 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 17-03-2026 20:44:17 [main] LogUtils - RESPONSE: 
+{
+    "token": "33428|yH1SAPJvfn93tgPC9wFJjBfrjRhgvpiHmQImgUY7f002283e"
+}
+[INFO] 17-03-2026 20:44:17 [main] LogUtils - Get body by key (token): 33428|yH1SAPJvfn93tgPC9wFJjBfrjRhgvpiHmQImgUY7f002283e
+[INFO] 17-03-2026 20:44:17 [main] LogUtils - Token Global: 33428|yH1SAPJvfn93tgPC9wFJjBfrjRhgvpiHmQImgUY7f002283e
+[INFO] 17-03-2026 20:44:17 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 17-03-2026 20:44:17 [main] LogUtils - POST: /category
+[INFO] 17-03-2026 20:44:17 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Regional Technology Manager",
+        "id": 2617
+    }
+}
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - Get body by key (response.id): 2617
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - Get body by key (response.name): Regional Technology Manager
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - CATEGORY_ID: 2617
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - CATEGORY_NAME: Regional Technology Manager
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - CATEGORY_ID: 2617
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - GET: /category/2617
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 2617,
+        "name": "Regional Technology Manager"
+    }
+}
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - Get body by key (response.name): Regional Technology Manager
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - Test case passed: getCategoryById
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - Tổng số test cases 2
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - Số test cases passed: 2
+[INFO] 17-03-2026 20:44:18 [main] LogUtils - Số test cases failed: 0
+[INFO] 17-03-2026 20:48:48 [main] LogUtils - 
+ *******************************
+[INFO] 17-03-2026 20:48:48 [main] LogUtils - ********LOGIN USER********
+[INFO] 17-03-2026 20:48:49 [main] LogUtils - POST not authorization: /login
+[INFO] 17-03-2026 20:48:49 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 17-03-2026 20:48:50 [main] LogUtils - RESPONSE: 
+{
+    "token": "33430|XrdstBbFyqqNkTHCprPnPQzuJHeYUCoEeAh7mr6Eca9eb85c"
+}
+[INFO] 17-03-2026 20:48:50 [main] LogUtils - Get body by key (token): 33430|XrdstBbFyqqNkTHCprPnPQzuJHeYUCoEeAh7mr6Eca9eb85c
+[INFO] 17-03-2026 20:48:50 [main] LogUtils - Token Global: 33430|XrdstBbFyqqNkTHCprPnPQzuJHeYUCoEeAh7mr6Eca9eb85c
+[INFO] 17-03-2026 20:48:50 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 17-03-2026 20:48:50 [main] LogUtils - POST: /category
+[INFO] 17-03-2026 20:48:50 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Senior Assistant",
+        "id": 2618
+    }
+}
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - Get body by key (response.id): 2618
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - Get body by key (response.name): Senior Assistant
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - CATEGORY_ID: 2618
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - CATEGORY_NAME: Senior Assistant
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - CATEGORY_ID: 2618
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - GET: /category/2618
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 2618,
+        "name": "Senior Assistant"
+    }
+}
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - Get body by key (response.name): Senior Assistant
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - Test case passed: getCategoryById
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - Tổng số test cases 2
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - Số test cases passed: 2
+[INFO] 17-03-2026 20:48:51 [main] LogUtils - Số test cases failed: 0
+[INFO] 17-03-2026 21:24:51 [main] LogUtils - 
+ *******************************
+[INFO] 17-03-2026 21:24:51 [main] LogUtils - ********LOGIN USER********
+[INFO] 17-03-2026 21:24:51 [main] LogUtils - POST not authorization: /login
+[INFO] 17-03-2026 21:24:51 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 17-03-2026 21:24:52 [main] LogUtils - RESPONSE: 
+{
+    "token": "33431|CWElOxFlfKt44fY8FvLPDpq8h041rwHGnh3KYCyj96e7e0e5"
+}
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Value by key (token): 33431|CWElOxFlfKt44fY8FvLPDpq8h041rwHGnh3KYCyj96e7e0e5
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Token Global: 33431|CWElOxFlfKt44fY8FvLPDpq8h041rwHGnh3KYCyj96e7e0e5
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - POST: /category
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Farming Architect",
+        "id": 2619
+    }
+}
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Value by key (response.id): 2619
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Value by key (response.name): Farming Architect
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - CATEGORY_ID: 2619
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - CATEGORY_NAME: Farming Architect
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - CATEGORY_ID: 2619
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - GET: /category/2619
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 2619,
+        "name": "Farming Architect"
+    }
+}
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Value by key (response.name): Farming Architect
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Test case passed: getCategoryById
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Tổng số test cases 2
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Số test cases passed: 2
+[INFO] 17-03-2026 21:24:53 [main] LogUtils - Số test cases failed: 0
+[INFO] 17-03-2026 21:38:26 [main] LogUtils - 
+ *******************************
+[INFO] 17-03-2026 21:38:26 [main] LogUtils - ********LOGIN USER********
+[INFO] 17-03-2026 21:38:26 [main] LogUtils - POST not authorization: /login
+[INFO] 17-03-2026 21:38:26 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 17-03-2026 21:38:27 [main] LogUtils - RESPONSE: 
+{
+    "token": "33432|d94lpa6zitkcEClZgKJHXv1LK0xNCSaMmhnACdXO25ee9a6b"
+}
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Value by key (token): 33432|d94lpa6zitkcEClZgKJHXv1LK0xNCSaMmhnACdXO25ee9a6b
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Token Global: 33432|d94lpa6zitkcEClZgKJHXv1LK0xNCSaMmhnACdXO25ee9a6b
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - POST: /category
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Body: src/test/resources/testdata/CreateCategory.json
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "name": "Real-Estate Assistant",
+        "id": 2620
+    }
+}
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Value by key (response.id): 2620
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Value by key (response.name): Real-Estate Assistant
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - CATEGORY_ID: 2620
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - CATEGORY_NAME: Real-Estate Assistant
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - CATEGORY_ID: 2620
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - GET: /category/2620
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - RESPONSE: 
+{
+    "message": "Success",
+    "response": {
+        "id": 2620,
+        "name": "Real-Estate Assistant"
+    }
+}
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Value by key (response.name): Real-Estate Assistant
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Test case passed: getCategoryById
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Tổng số test cases 2
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Số test cases passed: 2
+[INFO] 17-03-2026 21:38:28 [main] LogUtils - Số test cases failed: 0
+[INFO] 19-03-2026 21:18:13 [main] LogUtils - 
+ *******************************
+[INFO] 19-03-2026 21:18:13 [TestNG-test=Test Demo Allure Report-3] LogUtils - Đang chạy test case: testCreateBooking3
+[INFO] 19-03-2026 21:18:13 [TestNG-test=Test Demo Allure Report-1] LogUtils - Đang chạy test case: testCreateBooking1
+[INFO] 19-03-2026 21:18:13 [TestNG-test=Test Demo Allure Report-2] LogUtils - Đang chạy test case: testCreateBooking2
+[INFO] 19-03-2026 21:18:17 [TestNG-test=Test Demo Allure Report-3] LogUtils - Test case passed: testCreateBooking3
+[INFO] 19-03-2026 21:18:17 [TestNG-test=Test Demo Allure Report-2] LogUtils - Test case passed: testCreateBooking2
+[INFO] 19-03-2026 21:18:18 [TestNG-test=Test Demo Allure Report-1] LogUtils - Test case passed: testCreateBooking1
+[INFO] 19-03-2026 21:18:18 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 19-03-2026 21:18:18 [main] LogUtils - Tổng số test cases 3
+[INFO] 19-03-2026 21:18:18 [main] LogUtils - Số test cases passed: 3
+[INFO] 19-03-2026 21:18:18 [main] LogUtils - Số test cases failed: 0
+[INFO] 19-03-2026 21:20:31 [main] LogUtils - 
+ *******************************
+[INFO] 19-03-2026 21:20:31 [TestNG-test=Test Demo Allure Report-1] LogUtils - Đang chạy test case: testCreateBooking
+[INFO] 19-03-2026 21:20:31 [TestNG-test=Test Demo Allure Report-2] LogUtils - Đang chạy test case: testCreateBooking1
+[INFO] 19-03-2026 21:20:35 [TestNG-test=Test Demo Allure Report-1] LogUtils - Test case passed: testCreateBooking
+[INFO] 19-03-2026 21:20:35 [TestNG-test=Test Demo Allure Report-2] LogUtils - Test case passed: testCreateBooking1
+[INFO] 19-03-2026 21:20:35 [TestNG-test=Test Demo Allure Report-2] LogUtils - Đang chạy test case: testCreateBooking2
+[INFO] 19-03-2026 21:20:37 [TestNG-test=Test Demo Allure Report-2] LogUtils - Test case passed: testCreateBooking2
+[INFO] 19-03-2026 21:20:37 [TestNG-test=Test Demo Allure Report-2] LogUtils - Đang chạy test case: testCreateBooking3
+[INFO] 19-03-2026 21:20:38 [TestNG-test=Test Demo Allure Report-2] LogUtils - Test case passed: testCreateBooking3
+[INFO] 19-03-2026 21:20:38 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 19-03-2026 21:20:38 [main] LogUtils - Tổng số test cases 4
+[INFO] 19-03-2026 21:20:38 [main] LogUtils - Số test cases passed: 4
+[INFO] 19-03-2026 21:20:38 [main] LogUtils - Số test cases failed: 0
+[INFO] 19-03-2026 21:21:18 [main] LogUtils - 
+ *******************************
+[INFO] 19-03-2026 21:21:18 [TestNG-test=Test Demo Allure Report-3] LogUtils - Đang chạy test case: testCreateBooking2
+[INFO] 19-03-2026 21:21:18 [TestNG-test=Test Demo Allure Report-2] LogUtils - Đang chạy test case: testCreateBooking1
+[INFO] 19-03-2026 21:21:18 [TestNG-test=Test Demo Allure Report-1] LogUtils - Đang chạy test case: testCreateBooking
+[INFO] 19-03-2026 21:21:18 [TestNG-test=Test Demo Allure Report-4] LogUtils - Đang chạy test case: testCreateBooking3
+[INFO] 19-03-2026 21:21:22 [TestNG-test=Test Demo Allure Report-1] LogUtils - Test case passed: testCreateBooking
+[INFO] 19-03-2026 21:21:22 [TestNG-test=Test Demo Allure Report-4] LogUtils - Test case passed: testCreateBooking3
+[INFO] 19-03-2026 21:21:22 [TestNG-test=Test Demo Allure Report-2] LogUtils - Test case passed: testCreateBooking1
+[INFO] 19-03-2026 21:21:22 [TestNG-test=Test Demo Allure Report-3] LogUtils - Test case passed: testCreateBooking2
+[INFO] 19-03-2026 21:21:22 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 19-03-2026 21:21:22 [main] LogUtils - Tổng số test cases 4
+[INFO] 19-03-2026 21:21:22 [main] LogUtils - Số test cases passed: 4
+[INFO] 19-03-2026 21:21:22 [main] LogUtils - Số test cases failed: 0
+[INFO] 19-03-2026 21:29:20 [TestNG-tests-2] LogUtils - 
+ *******************************
+[INFO] 19-03-2026 21:29:20 [TestNG-tests-1] LogUtils - 
+ *******************************
+[INFO] 19-03-2026 21:29:20 [TestNG-test=Test Parallel 1-4] LogUtils - Đang chạy test case: testCreateBooking3
+[INFO] 19-03-2026 21:29:20 [TestNG-test=Test Parallel 2-3] LogUtils - Đang chạy test case: testCreateBooking2
+[INFO] 19-03-2026 21:29:20 [TestNG-test=Test Parallel 2-4] LogUtils - Đang chạy test case: testCreateBooking3
+[INFO] 19-03-2026 21:29:20 [TestNG-test=Test Parallel 2-2] LogUtils - Đang chạy test case: testCreateBooking1
+[INFO] 19-03-2026 21:29:20 [TestNG-test=Test Parallel 1-3] LogUtils - Đang chạy test case: testCreateBooking2
+[INFO] 19-03-2026 21:29:20 [TestNG-test=Test Parallel 1-2] LogUtils - Đang chạy test case: testCreateBooking1
+[INFO] 19-03-2026 21:29:20 [TestNG-test=Test Parallel 2-1] LogUtils - Đang chạy test case: testCreateBooking
+[INFO] 19-03-2026 21:29:20 [TestNG-test=Test Parallel 1-1] LogUtils - Đang chạy test case: testCreateBooking
+[INFO] 19-03-2026 21:29:24 [TestNG-test=Test Parallel 2-4] LogUtils - Test case passed: testCreateBooking3
+[INFO] 19-03-2026 21:29:24 [TestNG-test=Test Parallel 2-1] LogUtils - Test case passed: testCreateBooking
+[INFO] 19-03-2026 21:29:24 [TestNG-test=Test Parallel 1-3] LogUtils - Test case passed: testCreateBooking2
+[INFO] 19-03-2026 21:29:24 [TestNG-test=Test Parallel 1-2] LogUtils - Test case passed: testCreateBooking1
+[INFO] 19-03-2026 21:29:24 [TestNG-test=Test Parallel 1-1] LogUtils - Test case passed: testCreateBooking
+[INFO] 19-03-2026 21:29:24 [TestNG-test=Test Parallel 2-2] LogUtils - Test case passed: testCreateBooking1
+[INFO] 19-03-2026 21:29:24 [TestNG-test=Test Parallel 2-3] LogUtils - Test case passed: testCreateBooking2
+[INFO] 19-03-2026 21:29:24 [TestNG-test=Test Parallel 1-4] LogUtils - Test case passed: testCreateBooking3
+[INFO] 19-03-2026 21:29:24 [TestNG-tests-2] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 19-03-2026 21:29:24 [TestNG-tests-1] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 19-03-2026 21:29:24 [TestNG-tests-2] LogUtils - Tổng số test cases 8
+[INFO] 19-03-2026 21:29:24 [TestNG-tests-1] LogUtils - Tổng số test cases 8
+[INFO] 19-03-2026 21:29:24 [TestNG-tests-2] LogUtils - Số test cases passed: 8
+[INFO] 19-03-2026 21:29:24 [TestNG-tests-1] LogUtils - Số test cases passed: 8
+[INFO] 19-03-2026 21:29:24 [TestNG-tests-2] LogUtils - Số test cases failed: 0
+[INFO] 19-03-2026 21:29:24 [TestNG-tests-1] LogUtils - Số test cases failed: 0
+[INFO] 19-03-2026 21:52:24 [main] LogUtils - ********LOGIN USER********
+[INFO] 19-03-2026 21:52:24 [main] LogUtils - POST not authorization: /login
+[INFO] 19-03-2026 21:52:24 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 19-03-2026 21:52:26 [main] LogUtils - RESPONSE: 
+{
+    "token": "33466|XDwjNctOs3iL9kcMKhdfgWvARDweDmld7hFLT6J6d0f6b4bf"
+}
+[INFO] 19-03-2026 21:52:26 [main] LogUtils - Value by key (token): 33466|XDwjNctOs3iL9kcMKhdfgWvARDweDmld7hFLT6J6d0f6b4bf
+[INFO] 19-03-2026 21:52:26 [main] LogUtils - Token Global: 33466|XDwjNctOs3iL9kcMKhdfgWvARDweDmld7hFLT6J6d0f6b4bf

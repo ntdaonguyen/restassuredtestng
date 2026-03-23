@@ -1,0 +1,19 @@
+package com.nguyenntd.Bai7_Authentication_PUTMethod;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import org.testng.annotations.Test;
+
+import static io.restassured.RestAssured.given;
+
+public class FormAuth {
+
+    @Test
+    public void testFormAuth() {
+        given()
+                .auth()
+                .form("value1", "value2")
+                .get("your end point URL");
+    }
+}
