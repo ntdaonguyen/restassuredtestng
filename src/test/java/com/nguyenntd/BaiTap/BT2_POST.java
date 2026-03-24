@@ -39,6 +39,8 @@ public class BT2_POST {
         request.baseUri("https://restful-booker.herokuapp.com")
                 .accept("application/json")
                 .contentType("application/json")
+                .cookie("token", TOKEN)
+                .header("Authorization", "Basic YWRtaW46cGFzc3dvcmQxMjM=")
                 .body(new File(filePath));
 
         Response response = request.when().post("/booking");
@@ -46,13 +48,13 @@ public class BT2_POST {
 
         Assert.assertEquals(response.getStatusCode(), 200);
         ResponseBody body = response.getBody();
-        Assert.assertEquals(body.asString().contains("Jimmy"), true);
-        Assert.assertEquals(body.asString().contains("Jhin"), true);
-        Assert.assertEquals(body.asString().contains("1234"), true);
-        Assert.assertEquals(body.asString().contains("true"), true);
-        Assert.assertEquals(body.asString().contains("2025-01-01"), true);
-        Assert.assertEquals(body.asString().contains("2026-01-01"), true);
-        Assert.assertEquals(body.asString().contains("Sunset view"), true);
+        Assert.assertTrue(body.asString().contains("Jimmy"));
+        Assert.assertTrue(body.asString().contains("Jhin"));
+        Assert.assertTrue(body.asString().contains("1234"));
+        Assert.assertTrue(body.asString().contains("true"));
+        Assert.assertTrue(body.asString().contains("2025-01-01"));
+        Assert.assertTrue(body.asString().contains("2026-01-01"));
+        Assert.assertTrue(body.asString().contains("Sunset view"));
 
 
 
