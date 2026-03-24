@@ -60,10 +60,15 @@ public class JsonHelper {
 
             //Store new Json data to new file
             File jsonFile = new File(filePath);
-            OutputStream outputStream = new FileOutputStream(jsonFile);
-            outputStream.write(gson.toJson(jsonObject).getBytes());
-            outputStream.flush();
+//            OutputStream outputStream = new FileOutputStream(jsonFile);
+//            outputStream.write(gson.toJson(jsonObject).getBytes());
+//            outputStream.flush();
 
+            //Ghi file (blocking)
+            try (FileWriter writer = new FileWriter(jsonFile)) {
+                writer.write(gson.toJson(jsonObject).toString());
+                writer.flush(); //đảm bảo ghi xuống disk
+            }
             //Close reader
             reader.close();
 

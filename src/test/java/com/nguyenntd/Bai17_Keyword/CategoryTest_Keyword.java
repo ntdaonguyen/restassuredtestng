@@ -1,6 +1,7 @@
 package com.nguyenntd.Bai17_Keyword;
 
 import com.nguyenntd.globals.EndPointGlobal;
+import com.nguyenntd.helpers.JsonHelper;
 import com.nguyenntd.keywords.ApiKeyword;
 import com.nguyenntd.listeners.TestListener;
 import com.nguyenntd.utils.LogUtils;
@@ -11,6 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.Locale;
 
 @Listeners(TestListener.class)
@@ -27,6 +29,8 @@ import java.util.Locale;
             CATEGORY_NAME = faker.job().title();
             System.out.println("CATEGORY_NAME: " + CATEGORY_NAME);
 
+            JsonHelper.updateValueJsonFile(dataFile, "name", CATEGORY_NAME);
+
 //        RequestSpecification request = given();
 //        request.baseUri("https://api.anhtester.com/api")
 //                .accept(ContentType.JSON)
@@ -34,9 +38,9 @@ import java.util.Locale;
 //                .header("Authorization", "Bearer " + TokenGlobal.TOKEN)
 //                .body(new File(dataFile));
 
-            Response response = ApiKeyword.post(EndPointGlobal.EP_CATEGORY, dataFile);
-
-            response.then().statusCode(200);
+            Response response = ApiKeyword.post(EndPointGlobal.EP_CATEGORY, new File(dataFile));
+            // response.then().statusCode(200);
+            ApiKeyword.verifyStatusCode(response, 200);
 
             CATEGORY_ID = Integer.parseInt(ApiKeyword.getResponseKeyValue(response, "response.id"));
             CATEGORY_NAME = ApiKeyword.getResponseKeyValue(response, "response.name");
