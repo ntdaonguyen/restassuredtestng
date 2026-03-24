@@ -542,3 +542,142 @@ Expected status code <200> but was <400>.
 }
 [INFO] 19-03-2026 21:52:26 [main] LogUtils - Value by key (token): 33466|XDwjNctOs3iL9kcMKhdfgWvARDweDmld7hFLT6J6d0f6b4bf
 [INFO] 19-03-2026 21:52:26 [main] LogUtils - Token Global: 33466|XDwjNctOs3iL9kcMKhdfgWvARDweDmld7hFLT6J6d0f6b4bf
+[INFO] 24-03-2026 07:33:05 [main] LogUtils - 
+ *******************************
+[INFO] 24-03-2026 07:33:05 [main] LogUtils - ********LOGIN USER********
+[INFO] 24-03-2026 07:33:05 [main] LogUtils - POST not authorization: /login
+[INFO] 24-03-2026 07:33:05 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 24-03-2026 07:33:06 [main] LogUtils - RESPONSE: 
+{
+    "token": "33719|Wg9KwoNwwAABEvBHP3HBUCVwu9vOsKQvrPHL0F7mda89945f"
+}
+[INFO] 24-03-2026 07:33:07 [main] LogUtils - Value by key (token): 33719|Wg9KwoNwwAABEvBHP3HBUCVwu9vOsKQvrPHL0F7mda89945f
+[INFO] 24-03-2026 07:33:07 [main] LogUtils - Token Global: 33719|Wg9KwoNwwAABEvBHP3HBUCVwu9vOsKQvrPHL0F7mda89945f
+[INFO] 24-03-2026 07:33:07 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[ERROR] 24-03-2026 07:33:07 [main] LogUtils - Test case failed: testAddNewCategory
+[ERROR] 24-03-2026 07:33:07 [main] LogUtils - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <422>.
+
+[INFO] 24-03-2026 07:33:07 [main] LogUtils - Đang chạy test case: getCategoryById
+[ERROR] 24-03-2026 07:33:07 [main] LogUtils - Test case failed: getCategoryById
+[ERROR] 24-03-2026 07:33:07 [main] LogUtils - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+[INFO] 24-03-2026 07:33:07 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 24-03-2026 07:33:07 [main] LogUtils - Tổng số test cases 2
+[INFO] 24-03-2026 07:33:07 [main] LogUtils - Số test cases passed: 0
+[INFO] 24-03-2026 07:33:07 [main] LogUtils - Số test cases failed: 2
+[INFO] 24-03-2026 07:33:25 [main] LogUtils - 
+ *******************************
+[INFO] 24-03-2026 07:33:25 [main] LogUtils - ********LOGIN USER********
+[INFO] 24-03-2026 07:33:25 [main] LogUtils - POST not authorization: /login
+[INFO] 24-03-2026 07:33:25 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 24-03-2026 07:33:26 [main] LogUtils - RESPONSE: 
+{
+    "token": "33720|h8frrhsbgopMYKD9mbOEG1bV2fTRL3DIy9hM6s4W66b581fc"
+}
+[INFO] 24-03-2026 07:33:26 [main] LogUtils - Value by key (token): 33720|h8frrhsbgopMYKD9mbOEG1bV2fTRL3DIy9hM6s4W66b581fc
+[INFO] 24-03-2026 07:33:26 [main] LogUtils - Token Global: 33720|h8frrhsbgopMYKD9mbOEG1bV2fTRL3DIy9hM6s4W66b581fc
+[INFO] 24-03-2026 07:33:26 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[ERROR] 24-03-2026 07:33:27 [main] LogUtils - Test case failed: testAddNewCategory
+[ERROR] 24-03-2026 07:33:27 [main] LogUtils - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <422>.
+
+[INFO] 24-03-2026 07:33:27 [main] LogUtils - Đang chạy test case: getCategoryById
+[ERROR] 24-03-2026 07:33:27 [main] LogUtils - Test case failed: getCategoryById
+[ERROR] 24-03-2026 07:33:27 [main] LogUtils - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+[INFO] 24-03-2026 07:33:27 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 24-03-2026 07:33:27 [main] LogUtils - Tổng số test cases 2
+[INFO] 24-03-2026 07:33:27 [main] LogUtils - Số test cases passed: 0
+[INFO] 24-03-2026 07:33:27 [main] LogUtils - Số test cases failed: 2
+[INFO] 24-03-2026 07:35:15 [main] LogUtils - 
+ *******************************
+[INFO] 24-03-2026 07:35:15 [main] LogUtils - ********LOGIN USER********
+[INFO] 24-03-2026 07:35:15 [main] LogUtils - POST not authorization: /login
+[INFO] 24-03-2026 07:35:15 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 24-03-2026 07:35:16 [main] LogUtils - RESPONSE: 
+{
+    "token": "33721|XJqQrLv1XjfENYb9ZcNrEWhtTrLepmPpcAnXDgrd944636a1"
+}
+[INFO] 24-03-2026 07:35:16 [main] LogUtils - Value by key (token): 33721|XJqQrLv1XjfENYb9ZcNrEWhtTrLepmPpcAnXDgrd944636a1
+[INFO] 24-03-2026 07:35:16 [main] LogUtils - Token Global: 33721|XJqQrLv1XjfENYb9ZcNrEWhtTrLepmPpcAnXDgrd944636a1
+[INFO] 24-03-2026 07:35:16 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[ERROR] 24-03-2026 07:35:16 [main] LogUtils - Test case failed: testAddNewCategory
+[ERROR] 24-03-2026 07:35:16 [main] LogUtils - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <422>.
+
+[INFO] 24-03-2026 07:35:16 [main] LogUtils - Đang chạy test case: getCategoryById
+[ERROR] 24-03-2026 07:35:17 [main] LogUtils - Test case failed: getCategoryById
+[ERROR] 24-03-2026 07:35:17 [main] LogUtils - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+[INFO] 24-03-2026 07:35:17 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 24-03-2026 07:35:17 [main] LogUtils - Tổng số test cases 2
+[INFO] 24-03-2026 07:35:17 [main] LogUtils - Số test cases passed: 0
+[INFO] 24-03-2026 07:35:17 [main] LogUtils - Số test cases failed: 2
+[INFO] 24-03-2026 07:37:44 [main] LogUtils - 
+ *******************************
+[INFO] 24-03-2026 07:37:44 [main] LogUtils - ********LOGIN USER********
+[INFO] 24-03-2026 07:37:44 [main] LogUtils - POST not authorization: /login
+[INFO] 24-03-2026 07:37:44 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 24-03-2026 07:37:46 [main] LogUtils - RESPONSE: 
+{
+    "token": "33722|CFic5gLwBA82zruHlppiWYS14pohm0XYFjvdFLs4323954cc"
+}
+[INFO] 24-03-2026 07:37:46 [main] LogUtils - Value by key (token): 33722|CFic5gLwBA82zruHlppiWYS14pohm0XYFjvdFLs4323954cc
+[INFO] 24-03-2026 07:37:46 [main] LogUtils - Token Global: 33722|CFic5gLwBA82zruHlppiWYS14pohm0XYFjvdFLs4323954cc
+[INFO] 24-03-2026 07:37:46 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[ERROR] 24-03-2026 07:37:46 [main] LogUtils - Test case failed: testAddNewCategory
+[ERROR] 24-03-2026 07:37:46 [main] LogUtils - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <422>.
+
+[INFO] 24-03-2026 07:37:46 [main] LogUtils - Đang chạy test case: getCategoryById
+[ERROR] 24-03-2026 07:37:46 [main] LogUtils - Test case failed: getCategoryById
+[ERROR] 24-03-2026 07:37:46 [main] LogUtils - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <400>.
+
+[INFO] 24-03-2026 07:37:46 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 24-03-2026 07:37:46 [main] LogUtils - Tổng số test cases 2
+[INFO] 24-03-2026 07:37:46 [main] LogUtils - Số test cases passed: 0
+[INFO] 24-03-2026 07:37:46 [main] LogUtils - Số test cases failed: 2
+[INFO] 24-03-2026 07:38:42 [main] LogUtils - 
+ *******************************
+[INFO] 24-03-2026 07:38:42 [main] LogUtils - ********LOGIN USER********
+[INFO] 24-03-2026 07:38:42 [main] LogUtils - POST not authorization: /login
+[INFO] 24-03-2026 07:38:42 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 24-03-2026 07:38:43 [main] LogUtils - RESPONSE: 
+{
+    "token": "33723|WqOeMKb6o30pdNQJmYLKjEui2hc2vnJ3U3oaCJxN17ea7efa"
+}
+[INFO] 24-03-2026 07:38:43 [main] LogUtils - Value by key (token): 33723|WqOeMKb6o30pdNQJmYLKjEui2hc2vnJ3U3oaCJxN17ea7efa
+[INFO] 24-03-2026 07:38:43 [main] LogUtils - Token Global: 33723|WqOeMKb6o30pdNQJmYLKjEui2hc2vnJ3U3oaCJxN17ea7efa
+[INFO] 24-03-2026 07:38:43 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 24-03-2026 07:38:44 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 24-03-2026 07:38:44 [main] LogUtils - Đang chạy test case: getCategoryById
+[ERROR] 24-03-2026 07:38:44 [main] LogUtils - Test case failed: getCategoryById
+[ERROR] 24-03-2026 07:38:44 [main] LogUtils - java.lang.AssertionError: The Category Name not match. expected [Testing Category 05] but found [Direct Manufacturing Planner]
+[INFO] 24-03-2026 07:38:44 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 24-03-2026 07:38:44 [main] LogUtils - Tổng số test cases 2
+[INFO] 24-03-2026 07:38:44 [main] LogUtils - Số test cases passed: 1
+[INFO] 24-03-2026 07:38:44 [main] LogUtils - Số test cases failed: 1
+[INFO] 24-03-2026 07:40:28 [main] LogUtils - 
+ *******************************
+[INFO] 24-03-2026 07:40:28 [main] LogUtils - ********LOGIN USER********
+[INFO] 24-03-2026 07:40:28 [main] LogUtils - POST not authorization: /login
+[INFO] 24-03-2026 07:40:28 [main] LogUtils - Body: {"username":"nguyenntd42","password":"Demo@123"}
+[INFO] 24-03-2026 07:40:29 [main] LogUtils - RESPONSE: 
+{
+    "token": "33724|w5YSPiM0SY1uikvfAH7yyLsgbWE3iRXmAV21ML81285730fd"
+}
+[INFO] 24-03-2026 07:40:29 [main] LogUtils - Value by key (token): 33724|w5YSPiM0SY1uikvfAH7yyLsgbWE3iRXmAV21ML81285730fd
+[INFO] 24-03-2026 07:40:29 [main] LogUtils - Token Global: 33724|w5YSPiM0SY1uikvfAH7yyLsgbWE3iRXmAV21ML81285730fd
+[INFO] 24-03-2026 07:40:29 [main] LogUtils - Đang chạy test case: testAddNewCategory
+[INFO] 24-03-2026 07:40:29 [main] LogUtils - Test case passed: testAddNewCategory
+[INFO] 24-03-2026 07:40:30 [main] LogUtils - Đang chạy test case: getCategoryById
+[INFO] 24-03-2026 07:40:30 [main] LogUtils - Test case passed: getCategoryById
+[INFO] 24-03-2026 07:40:30 [main] LogUtils - Đã gửi mail đến nguyenntd@email.com
+[INFO] 24-03-2026 07:40:30 [main] LogUtils - Tổng số test cases 2
+[INFO] 24-03-2026 07:40:30 [main] LogUtils - Số test cases passed: 2
+[INFO] 24-03-2026 07:40:30 [main] LogUtils - Số test cases failed: 0
