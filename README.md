@@ -29,14 +29,16 @@ This project helps practice:
 
 ## 📂 Project Structure
 
+```text
 restassuredtestng/
 ├── src/
-│ ├── main/
-│ └── test/
+│   ├── main/
+│   └── test/
 ├── suites/
 ├── logs/
 ├── pom.xml
 └── README.md
+```
 
 ### Folder Description
 
